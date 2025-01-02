@@ -4,9 +4,17 @@ import Bank from './assets/Bank.png'
 import Withdraw from './assets/withdraw.png'
 import Contact from './assets/Contact.png'
 import './App.css'
-import Nav from './Nav'
 
 function App() {
+  const btn = document.querySelector('.btn');
+  btn.addEventListener('click', () => {
+    alert('Why are you clicking me?');
+  });
+
+  const go = document.querySelector('.go');
+  go.addEventListener('click', () => {
+    alert('Go where?');
+  });
 
   return (
     <>
@@ -65,7 +73,7 @@ function App() {
         <h1 className='font-bold text-[16px]'>Your Earnings Report is Updated!</h1>
         <h2 className='text-sm'>Tap to view your monthly earning details and</h2>
       </div>
-      <button className='btn btn-primary rounded-3xl text-lg pl-5 pr-5'>Go</button>
+      <button className='btn btn-primary rounded-3xl text-lg pl-5 pr-5 go'>Go</button>
      </div>
 
      {/* Services */}
