@@ -1174,6 +1174,10 @@ html {
   width: 90px;
 }
 
+.w-\[600px\] {
+  width: 600px;
+}
+
 .w-\[1000px\] {
   width: 1000px;
 }
@@ -1303,5 +1307,16 @@ html {
 
 body, main {
   background-color: rgb(247, 243, 243);
+  width: 600px;
 }
 
+@media (max-width: 400px) {
+  body, main {
+    width: 100%;
+  }
+
+  .nav {
+    width: 100%;
+  }
+
+}

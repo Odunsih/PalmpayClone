@@ -130,8 +130,6 @@ function App() {
       </div>
       </div>
      </div>
-     {/* NAV */}
-     <Nav />
     </>
   )
 }

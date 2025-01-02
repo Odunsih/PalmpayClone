@@ -4,7 +4,7 @@ import Bank from './assets/Bank.png'
 
 const Nav = () => {
   return (
-    <nav className=' bg-white flex flex-row justify-between m-0 p-5 fixed bottom left sub w-[100%]  font-sans'>
+    <nav className=' bg-white flex flex-row justify-between m-0 p-5 fixed bottom left sub w-[600px]  font-sans nav'>
      <div>
       <img className='w-10' src="https://www.svgrepo.com/show/527753/home.svg" alt="home" />
         <p className='text-align'>Home</p>
