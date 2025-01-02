@@ -571,7 +571,7 @@ video {
 @supports not (color: oklch(0% 0 0)) {
   :root {
     color-scheme: light;
-    --fallback-p: #491eff;
+    --fallback-p: #741eff;
     --fallback-pc: #d4dbff;
     --fallback-s: #ff41c7;
     --fallback-sc: #fff9fc;
@@ -596,7 +596,7 @@ video {
   @media (prefers-color-scheme: dark) {
     :root {
       color-scheme: dark;
-      --fallback-p: #7582ff;
+      --fallback-p: #741eff;
       --fallback-pc: #050617;
       --fallback-s: #ff71cf;
       --fallback-sc: #190211;

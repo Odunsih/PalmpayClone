@@ -40,7 +40,7 @@ function App() {
 
       <div className='flex flex-row justify-between m-2 font-sans p-2'>
         <h1 className='text-[20px] font-bold'>₦500,000.00</h1>
-        <button className='btn btn-primary rounded-3xl text-lg'>Add Money</button>
+        <button data-theme="light" className='btn btn-primary bg-purple-600 rounded-3xl text-lg'>Add Money</button>
       </div>
       </div>
       
@@ -73,7 +73,7 @@ function App() {
         <h1 className='font-bold text-[16px]'>Your Earnings Report is Updated!</h1>
         <h2 className='text-sm'>Tap to view your monthly earning details and</h2>
       </div>
-      <button className='btn btn-primary rounded-3xl text-lg pl-5 pr-5 go'>Go</button>
+      <button data-theme="light" className='btn btn-primary rounded-3xl text-lg pl-5 pr-5 go'>Go</button>
      </div>
 
      {/* Services */}
