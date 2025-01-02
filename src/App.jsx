@@ -37,14 +37,14 @@ function App() {
       </div>
       
        <div className='bg-white m-0 rounded-[15px] p-0 pl-5 pr-5 pb-3 font-sans flex flex-row justify-between'>
-        <p>Boost your savings, earn <span className='text-purple-700 font-bold'>20% p.a. </span>daily.</p>
+        <p className='text-sm'>Boost your savings, earn <span className='text-purple-700 font-bold'>20% p.a. </span>daily.</p>
         <p className='text-purple-700'>Act Now <span className='bg-purple-200 rounded-[50%] w-7'> &gt;</span></p>
        </div>
      </div>
      {/* Transfer */}
      <div className='bg-white m-5 rounded-[15px] font-sans p-2'>
       <h1 className='font-bold text-[16px] m-5 mt-10 pt-5'>Money Transfer</h1>
-      <div className='flex flex-row justify-between m-5 text-align'>
+      <div className='flex flex-row justify-between m-5 text-align text-sm'>
       <div>
       <img className='w-16' src={Bank} alt="Bank.png" />
         <p>To Bank</p>
@@ -63,7 +63,7 @@ function App() {
      <div className='flex flex-row justify-between p-4 m-5 bg-white rounded-[15px] font-sans'>
       <div>
         <h1 className='font-bold text-[16px]'>Your Earnings Report is Updated!</h1>
-        <h2>Tap to view your monthly earning details and</h2>
+        <h2 className='text-sm'>Tap to view your monthly earning details and</h2>
       </div>
       <button className='btn btn-primary rounded-3xl text-lg pl-5 pr-5'>Go</button>
      </div>
