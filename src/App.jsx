@@ -6,15 +6,15 @@ import Contact from './assets/Contact.png'
 import './App.css'
 
 function App() {
-  const btn = document.querySelector('.btn');
-  btn.addEventListener('click', () => {
-    alert('Why are you clicking me?');
-  });
+  // const btn = document.querySelector('.btn');
+  // btn.addEventListener('click', () => {
+  //   alert('Why are you clicking me?');
+  // });
 
-  const go = document.querySelector('.go');
-  go.addEventListener('click', () => {
-    alert('Go where?');
-  });
+  // const go = document.querySelector('.go');
+  // go.addEventListener('click', () => {
+  //   alert('Go where?');
+  // });
 
   return (
     <>
