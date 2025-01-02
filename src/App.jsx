@@ -31,7 +31,7 @@ function App() {
       </div>
 
       <div className='flex flex-row justify-between m-2 font-sans p-2'>
-        <h1 className='text-[20px] font-bold'>₦100,000.00</h1>
+        <h1 className='text-[20px] font-bold'>₦500,000.00</h1>
         <button className='btn btn-primary rounded-3xl text-lg'>Add Money</button>
       </div>
       </div>
