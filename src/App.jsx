@@ -58,11 +58,11 @@ function App() {
         <p>To Bank</p>
       </div>
       <div>
-      <img className='w-16' src={Contact} alt="Bank.png" />
+      <img className='w-16' src={Contact} alt="contact.png" />
         <p>To PalmPay</p>
       </div>
       <div>
-      <img className='w-16' src={Withdraw} alt="Bank.png" />
+      <img className='w-16' src={Withdraw} alt="withdraw.png" />
         <p>Withdraw</p>
       </div>
       </div>
